@@ -1,0 +1,2 @@
+sudo umount UUID=88AE53DEAE53C37C
+sudo mount UUID=88AE53DEAE53C37C /exthdd

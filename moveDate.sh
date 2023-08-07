@@ -1,0 +1,11 @@
+#!/bin/bash
+mkdir -p "$2"
+FILES=( "./"????"$1"*)
+FILES+=( "./P_"????"$1"*)
+FILES+=( "./IMG-"????"$1"*)
+FILES+=( "./IMG"????"$1"*)
+FILES+=( "./IMG_"????"$1"*)
+FILES+=( "./VID_"????"$1"*)
+for FILE in "${FILES[@]}";do
+mv "$FILE" ./"$2"/
+done

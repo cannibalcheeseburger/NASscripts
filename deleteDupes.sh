@@ -1,0 +1,1 @@
+fdupes -rsd /hdd/photoarchive/

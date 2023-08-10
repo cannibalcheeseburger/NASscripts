@@ -2,13 +2,11 @@
 mkdir -p videos
 FILES=( "./"*.AVI)
 FILES+=( "./"*.THM)
-FILES+=( "./"*.nfo)
 FILES+=( "./"*.mp4)
 FILES+=( "./"*.MOV)
 FILES+=( "./"*.avi)
 FILES+=( "./"*.MP4)
 FILES+=( "./"*.mpeg)
-FILES+=( "./"*.img)
 for FILE in "${FILES[@]}";do
 mv "$FILE" ./videos/
 done

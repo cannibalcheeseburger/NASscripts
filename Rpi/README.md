@@ -2,6 +2,6 @@
 
 ## Scripts :
 
-### - [syncRpi.sh](./syncRpi.sh)
+### - [SyncRpi.sh](./SyncRpi.sh)
 
 Synchronizes the Photoarchive in NAS to the Backup Server

@@ -24,6 +24,11 @@ For Rsync-ing Archive between:
 - /hddmain to /hdd
 - /hddmain to /exthdd
 
+### [Rpi](./Rpi/README.md)
+
+Scripts to help maintainance of backup Raspberry Pi Server
+
+- Rsync Archive Backup 
 
 ### [Misc](./Misc/README.md)
 

@@ -1,6 +1,7 @@
 # NAS Scripts
 
-Scripts to simplify Workflow around my NAS Server
+Scripts to simplify Workflow around my NAS Server.\
+(So I dont forget WTF they do.)
 
 ## Content
 

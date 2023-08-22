@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -aivr --delete --progress /hddmain/photoarchive/ /hdd/photoarchive
+rsync -avW --delete --no-compress --progress /hddmain/photoarchive/ /hdd/photoarchive/

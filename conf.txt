@@ -1,0 +1,3 @@
+.
+/home/kash/configs/
+/home/kash/Docker/

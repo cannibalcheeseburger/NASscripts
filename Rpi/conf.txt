@@ -1,0 +1,3 @@
+/home/kashpi/scripts/
+/home/kashpi/Config/
+

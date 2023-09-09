@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -aivr --delete --progress /hdd/photoarchive/ /exthdd/LegendaryStuff/NORMIE_STUFF/NOSTALGIA/photoarchive/
+rsync -aWv --delete --no-compress --progress /hdd/photoarchive/ /exthdd/LegendaryStuff/NORMIE_STUFF/NOSTALGIA/photoarchive/

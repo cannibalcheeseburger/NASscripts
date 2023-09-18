@@ -7,13 +7,13 @@ NOMOVIES=2; #+1 number
 #readarray -t movies < <(find /hddmain/media/movies/ -type d -ctime -10 -ls | grep -o '/hddmain.*' | tail -n +2  | tr -d '\')
 readarray -t movies < <(ls -t /hddmain/media/movies)
 COUNT=0;
+rm -rf /hdd/devicesync/cached/*;
 for movie in "${movies[@]}"
 do
   if [[ $COUNTER -gt $NOMOVIES ]] ; then
     exit 1;
   fi
  # echo $MOVIEFOLDER"$movie"  
-  rm -rf /hdd/devicesync/cached/*;
   cp -frv $MOVIEFOLDER"$movie" "/hdd/devicesync/cached";
   COUNTER=$[$COUNTER +1]
 done
